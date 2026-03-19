@@ -8,7 +8,14 @@
 # esto es en todos los lenguajes 
 #operador de asignacion = (py
 #operdador deasignacion alfanumerico seria ""
-nom = "" #declaración de la variable 
+
+  #declaración de la variables con posterioridad sirve para limpiar estas 
+nom = ""
+ed = 0 
+correo= ""
+
 # entrada del ux 
 nom = input("ingresa tu nombre: ")
-print ("Hola",nom, "bienvenidos al inframundo___,,,___(O.O)___,,,___")
+ed = input ("Su edad ") 
+correo = input ("ingresa tu correo")
+print("Hola", nom, "tienes", ed,"años, tu correo es:", correo)
